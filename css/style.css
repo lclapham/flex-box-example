@@ -1,0 +1,50 @@
+body {
+    background-color: darkgrey;
+    color: yellow;
+}
+
+.main-axis {
+    background-color: red;
+    height: 5px;
+    width: 100%;
+    position: absolute;
+}
+
+.cross-axis {
+    background-color: blue;
+    width: 5px;
+    height: 200px;
+    position: absolute;
+    right: 50%;
+}
+
+.flexbox-container {
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.flexbox-item {
+    width: 200px;
+    min-height: 100px;
+    margin: 10px;
+    border: 3px black solid;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-1 {
+    min-height: 90%;
+    color: black;
+}
+
+.flexbox-item-2 {
+    min-height: 90%;
+    color: black;
+}
+
+.flexbox-item-3 {
+    min-height: 90%;
+    color: black;
+}
